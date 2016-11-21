@@ -1,18 +1,20 @@
 package com.codemine.Talk2MeServer
 
 import net.sf.json.JSONObject
-import java.io.*
+import java.io.BufferedWriter
+import java.io.OutputStreamWriter
 import java.net.Socket
 import java.sql.DriverManager
 import java.sql.SQLException
 import java.sql.Statement
-import java.util.*
 
-class GetFriends(val socket: Socket, val jsonObject: JSONObject) : Runnable {
+/**
+ * Created by billy on 2016/11/21.
+ */
 
+class GetNewChattingMsg(val socket: Socket, val jsonObject: JSONObject) : Runnable {
     var statement : Statement? = null
     var sql: String? = null
-    var bfr = BufferedReader(InputStreamReader(socket.inputStream))
     var bfw = BufferedWriter(OutputStreamWriter(socket.outputStream))
 
     init {
@@ -23,6 +25,7 @@ class GetFriends(val socket: Socket, val jsonObject: JSONObject) : Runnable {
             if (!connection.isClosed)
                 println("数据库连接成功!")
             statement = connection.createStatement()
+
         } catch (e: SQLException) {
             println("error")
         } catch (e: ClassNotFoundException) {
@@ -30,24 +33,11 @@ class GetFriends(val socket: Socket, val jsonObject: JSONObject) : Runnable {
         }
     }
 
-    fun getFriends() {
-        val callbackJson = JSONObject()
-        val map = HashMap<String, String>()
-        val account = jsonObject.getString("account");
-        sql = "SELECT account2 FROM FRIENDSHIP WHERE account1='$account'"
-        val result = statement!!.executeQuery(sql)
-        var i = 0
-        while (result.next()) {
-            map.put(i.toString(), result.getString("account2"))
-            i++
-            println(result.getString("account2"))
-        }
-        callbackJson.putAll(map)
-        bfw.write(callbackJson.toString() + "\n")
-        bfw.flush()
+    fun getNewChattingMsg() {
+        sql = "SELECT info FROM "
     }
 
     override fun run() {
-        getFriends()
+        getNewChattingMsg()
     }
 }

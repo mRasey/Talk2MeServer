@@ -20,22 +20,17 @@ class Login(val socket: Socket, val jsonObject: JSONObject) : Runnable {
 
     var statement : Statement? = null
     var sql: String? = null
-//    var jsonObject: JSONObject? = null
     var bfr = BufferedReader(InputStreamReader(socket.inputStream))
     var bfw = BufferedWriter(OutputStreamWriter(socket.outputStream))
 
     init {
         try {
-
             Class.forName("com.mysql.jdbc.Driver")
             val url = "jdbc:mysql://localhost:3306/Talk2Me?user=root&password=199507wz"
             val connection = DriverManager.getConnection(url)
             if (!connection.isClosed)
                 println("数据库连接成功!")
             statement = connection.createStatement()
-//            jsonObject = JSONObject.fromObject(bfr.readLine())
-//            println("finish")
-
         } catch (e: SQLException) {
             println("error")
         } catch (e: ClassNotFoundException) {

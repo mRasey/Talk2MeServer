@@ -19,7 +19,6 @@ class Register (val socket: Socket, val jsonObject: JSONObject): Runnable {
 
     var statement: Statement? = null
     var sql: String? = null
-//    var jsonObject: JSONObject
     var bfr = BufferedReader(InputStreamReader(socket.inputStream))
     var bfw = BufferedWriter(OutputStreamWriter(socket.outputStream))
 
@@ -31,7 +30,6 @@ class Register (val socket: Socket, val jsonObject: JSONObject): Runnable {
             if (!connection.isClosed())
                 println("数据库连接成功!")
             statement = connection.createStatement()
-//            jsonObject = JSONObject.fromObject(bfr.readLine())
         }
         catch (e: SQLException) {
             println("error")

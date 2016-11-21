@@ -30,6 +30,12 @@ class Route() {
             "getFriends" -> {
                 Thread(GetFriends(socket, jsonObj)).start()
             }
+            "getNewMsg" -> {
+                Thread(GetNewMsg(socket, jsonObj)).start()
+            }
+            "shakeNewFriend" -> {
+                Thread(ShakeNewFriend(socket, jsonObj)).start()
+            }
             else -> {
                 println("error op")
             }

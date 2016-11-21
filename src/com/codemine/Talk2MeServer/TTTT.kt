@@ -1,5 +1,6 @@
 package com.codemine.Talk2MeServer
 
+import net.sf.json.JSONArray
 import net.sf.json.JSONObject
 import java.io.BufferedWriter
 import java.io.OutputStreamWriter
@@ -11,12 +12,17 @@ import java.util.*
  * Created by billy on 2016/11/19.
  */
 fun main(args: Array<String>) {
-    val jsonObj = JSONObject()
-    for (i in 0..9) {
-        jsonObj.put(i.toString(), i.toString())
-    }
-    for (i in 0..10) {
-        if (jsonObj.containsKey(i.toString()))
-            println(jsonObj.getString(i.toString()))
-    }
+    val array = ArrayList<obj>()
+    val hashmap = HashMap<String, ArrayList<obj>>()
+    array.add(obj("1", "1"))
+    array.add(obj("2", "2"))
+    hashmap.put("233", array)
+    val jsonObj = JSONObject.fromObject(hashmap)
+    val newj = JSONObject.fromObject(jsonObj)
+    val i = newj.get("233")
+    println(JSONObject.fromObject(JSONArray.fromObject(i)[0]).getString("date"))
+}
+
+data class obj(val info: String, val date:String) {
+
 }
