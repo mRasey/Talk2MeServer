@@ -2,6 +2,7 @@ package com.codemine.Talk2MeServer
 
 import net.sf.json.JSONObject
 import java.io.*
+import java.net.ServerSocket
 import java.net.Socket
 
 /**
@@ -11,7 +12,18 @@ import java.net.Socket
 /**
  * 路由器
  */
-class Route() {
+class Route(val serverSocket: ServerSocket) : Runnable {
+
+    override fun run() {
+        try {
+            while (true) {
+                dispatch(serverSocket.accept())
+            }
+        }
+        catch (e: Exception) {
+            Thread(Route(serverSocket)).start()
+        }
+    }
 
     /**
      * 分配socket
@@ -35,6 +47,9 @@ class Route() {
             }
             "shakeNewFriend" -> {
                 Thread(ShakeNewFriend(socket, jsonObj)).start()
+            }
+            "sendNewMsg" -> {
+                Thread(SendNewMsg(socket, jsonObj)).start()
             }
             else -> {
                 println("error op")

@@ -62,8 +62,7 @@ class GetNewMsg(val socket: Socket, val jsonObject: JSONObject) : Runnable{
     override fun run() {
         getNewMsg()
     }
+
+    data class InfoObj(val fromAccount: String, val toAccount: String, val info: String, val date: String)
 }
 
-data class InfoObj(val fromAccount: String, val toAccount: String, val info: String, val date: String) {
-
-}

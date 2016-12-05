@@ -11,9 +11,5 @@ import java.net.ServerSocket
  */
 fun main(args: Array<String>) {
     val serverSocket = ServerSocket(2333)
-    val route = Route()
-    while(true) {
-        route.dispatch(serverSocket.accept())
-        println("receive")
-    }
+    Thread(Route(serverSocket)).start()
 }
