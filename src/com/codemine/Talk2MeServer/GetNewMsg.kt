@@ -1,6 +1,5 @@
 package com.codemine.Talk2MeServer
 
-import com.sun.tools.classfile.InnerClasses_attribute
 import net.sf.json.JSONObject
 import java.io.BufferedReader
 import java.io.BufferedWriter

@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="240293dc-f7a9-4edb-8875-5327e81260e4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/SendNewMsg.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Talk2MeServer/com/codemine/Talk2MeServer/GetNewMsg$InfoObj.class" afterPath="$PROJECT_DIR$/out/production/Talk2MeServer/com/codemine/Talk2MeServer/GetNewMsg$InfoObj.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Talk2MeServer/com/codemine/Talk2MeServer/GetNewMsg.class" afterPath="$PROJECT_DIR$/out/production/Talk2MeServer/com/codemine/Talk2MeServer/GetNewMsg.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/GetNewMsg.kt" afterPath="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/GetNewMsg.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/Main.kt" afterPath="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/Main.kt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/Route.kt" afterPath="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/Route.kt" />
     </list>
     <ignored path="Talk2MeServer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="Main.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="176">
+              <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
               <folding>
                 <element signature="e#66#108#0" expanded="false" />
               </folding>
@@ -44,8 +42,8 @@
       <file leaf-file-name="Route.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/Route.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="784">
+              <caret line="51" column="59" lean-forward="true" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
               <folding>
                 <element signature="e#36#134#0" expanded="true" />
                 <element signature="e#136#178#0" expanded="false" />
@@ -57,8 +55,8 @@
       <file leaf-file-name="SendNewMsg.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/SendNewMsg.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="208">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#36#237#0" expanded="true" />
                 <marker date="1480923546000" expanded="true" signature="1266:1345" ph="INSERT INTO CHAT_RECORD... " />
@@ -70,10 +68,10 @@
       <file leaf-file-name="GetNewMsg.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/GetNewMsg.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="57" column="68" lean-forward="false" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
+            <state relative-caret-position="288">
+              <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
               <folding>
-                <element signature="e#36#373#0" expanded="true" />
+                <element signature="e#36#319#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,8 +80,8 @@
       <file leaf-file-name="ShakeNewFriend.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/ShakeNewFriend.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="54" column="51" lean-forward="true" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+            <state relative-caret-position="720">
+              <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
               <folding>
                 <element signature="e#36#319#0" expanded="true" />
               </folding>
@@ -167,10 +165,10 @@
         <option value="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/TTTT.kt" />
         <option value="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/InfoObj.kt" />
         <option value="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/ShakeNewFriend.kt" />
-        <option value="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/GetNewMsg.kt" />
         <option value="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/SendNewMsg.kt" />
         <option value="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/Route.kt" />
         <option value="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/Main.kt" />
+        <option value="$PROJECT_DIR$/src/com/codemine/Talk2MeServer/GetNewMsg.kt" />
       </list>
     </option>
   </component>
@@ -202,8 +200,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -266,8 +264,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../MySQL" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="FullScreen" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -959,12 +957,15 @@
       <workItem from="2145917243489" duration="365000" />
       <workItem from="1480921945352" duration="20000" />
       <workItem from="1480921990179" duration="687000" />
-      <workItem from="1480923374606" duration="1640000" />
+      <workItem from="1480923374606" duration="2016000" />
+      <workItem from="1483340389065" duration="8000" />
+      <workItem from="1483513042376" duration="218000" />
+      <workItem from="1483542916602" duration="1767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30591000" />
+    <option name="totallyTimeSpent" value="32960000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -979,7 +980,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1091,7 +1092,7 @@
         <state relative-caret-position="592">
           <caret line="47" column="57" lean-forward="false" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
           <folding>
-            <element signature="e#36#373#0" expanded="true" />
+            <element signature="e#36#319#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1372,17 +1373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/Register.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="e#36#231#0" expanded="true" />
-            <element signature="e#233#275#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/TTTT.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -1391,16 +1381,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/InfoObj.kt" />
-    <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/GetFriends.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#36#209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/Login.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -1419,20 +1399,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/GetNewMsg.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="57" column="68" lean-forward="false" selection-start-line="57" selection-start-column="68" selection-end-line="57" selection-end-column="68" />
-          <folding>
-            <element signature="e#36#373#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/ShakeNewFriend.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="54" column="51" lean-forward="true" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+        <state relative-caret-position="720">
+          <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
           <folding>
             <element signature="e#36#319#0" expanded="true" />
           </folding>
@@ -1441,8 +1411,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/SendNewMsg.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="208">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#36#237#0" expanded="true" />
             <marker date="1480923546000" expanded="true" signature="1266:1345" ph="INSERT INTO CHAT_RECORD... " />
@@ -1450,10 +1420,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/GetFriends.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#36#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/GetNewMsg.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="e#36#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/Register.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="e#36#231#0" expanded="true" />
+            <element signature="e#233#275#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="176">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
           <folding>
             <element signature="e#66#108#0" expanded="false" />
           </folding>
@@ -1462,8 +1463,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/codemine/Talk2MeServer/Route.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="784">
+          <caret line="51" column="59" lean-forward="true" selection-start-line="51" selection-start-column="59" selection-end-line="51" selection-end-column="59" />
           <folding>
             <element signature="e#36#134#0" expanded="true" />
             <element signature="e#136#178#0" expanded="false" />
